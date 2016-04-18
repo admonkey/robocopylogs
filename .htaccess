@@ -547,7 +547,7 @@ AddDefaultCharset utf-8
 # include: configuration files, files that contain metadata about the
 # project (e.g.: project dependencies), build scripts, etc..
 
-<FilesMatch "(^#.*#|\.(bak|conf|dist|fla|in[ci]|log|psd|sh|sql|sw[op])|~)$">
+<FilesMatch "(^#.*#|\.(bak|conf|dist|fla|in[ci]|psd|sh|sql|sw[op])|~)$">
 
     # Apache < 2.3
     <IfModule !mod_authz_core.c>
