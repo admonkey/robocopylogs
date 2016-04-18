@@ -2,7 +2,7 @@
 $running_status = "Started";
 $time_start = 1460951266.1134;
 $time_complete = null;
-//require_once(__DIR__."/status.inc.php");
+require_once(__DIR__."/status.inc.php");
 $time_diff = time() - $time_start;
 if($running_status == "Complete"){
   $running_class = "success";
